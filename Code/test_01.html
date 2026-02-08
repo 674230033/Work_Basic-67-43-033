@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>งานเเก้สอบปฏิบัติ_01</title>
+    <style>
+        body, html {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #525252;
+            scroll-behavior: smooth;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h1 {
+            color: rgb(255, 255, 255);
+        }
+
+        h2 {
+            font-size: 32px;
+            border-bottom: 1px solid #585757;
+            padding: 13px 13px;
+        }
+
+        header {
+            background: #015b97;
+            color: #fff;
+            text-align: center;
+            padding: 15px 15px;
+            font-size: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            display: grid;
+            grid-template-columns: 3fr 3fr 3fr;
+            padding: 6px 8px;
+            font-size: 16px;
+            text-align: center;
+            margin-top: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgb(0, 0, 0);
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .p1 {
+            background-color: rgb(133, 209, 253);
+            padding: 10px 12px;
+            border-radius: 12px;
+            width: 200px;
+            margin-right: 16px;
+            margin-left: 50px;
+            border: 1px solid black;
+            transition: 0.5s;
+        }
+
+        .p1:hover {
+            transform: translateY(-5px);
+            background-color: aquamarine;
+            border: 1px solid aquamarine;
+        }
+
+        .card2 {
+            background-color: rgb(83, 174, 235);
+            padding: 13px 18px;
+            font-size: 16px;
+            height: 400px;
+            width: 500px;
+            text-align: left;
+            border-radius: 12px;
+            margin: 10px 10px 10px 10px;
+        }
+
+        .pass {
+            display: grid;
+            grid-template-columns: 1.2fr 3fr;
+            font-size: 16px;
+        }
+
+        img {
+            height: 180px;
+            width: 180px;
+            border-radius: 600px;
+            margin-left: 150px;
+            margin-top: 100px;
+            border: 5px solid #17c2d8;
+        }
+
+        .pic {
+            transition: 1s;
+        }
+
+        .pic:hover {
+            box-shadow: 0 4px 12px rgb(0, 0, 0);
+            transform: scale(1.5) rotate(360deg);
+        }
+
+        .trem2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 6px 8px;
+            font-size: 16px;
+            text-align: center;
+            margin-top: 30px;
+            border-radius: 12px;
+        }
+
+        .trem {
+            background-color: rgb(133, 209, 253);
+            padding: 10px 12px;
+            border-radius: 12px;
+            width: 200px;
+            margin-right: 16px;
+            margin-left: 50px;
+            border: 1px solid black;
+            transition: 0.5s;
+            box-shadow: 0 4px 12px rgb(36, 36, 36);
+        }
+
+        .trem:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 12px rgb(156, 245, 248);
+            border: 1px solid rgb(156, 245, 248);
+        }
+
+        .gpx {
+            background-color: gray;
+            padding: 12px 35px;
+            margin-top: 30px;
+            border-radius: 12px;
+            font-size: 40px;
+            text-align: center;
+            color: #fff;
+            box-shadow: 0 4px 12px white;
+        }
+
+        .back {
+            background-color: #015b97;
+            padding: 12px 30px;
+            border-radius: 12px;
+            color: rgb(255, 255, 255);
+            margin-left: 830px;
+            transition: 0.3s;
+            box-shadow: 0 4px 12px white;
+        }
+
+        .back:hover {
+            background-color: white;
+            color: #333;
+        }
+
+        footer {
+            background: #e0e0e0;
+            text-align: center;
+            padding: 12px;
+            font-size: 13px;
+            color: #333;
+            margin-top: 50px;
+            border-top: 3px solid black;
+            transition: 0.5s;
+        }
+
+        footer:hover {
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
+
+<body>
+    <header id="page4">
+        <h1>📊รายงานผลเกรด</h1>
+    </header>
+
+    <div class="container">
+        <section>
+            <div class="card">
+                <a href="#page1" class="active">
+                    <p class="p1">🧑🏻ข้อมูลนักศึกษา</p>
+                </a>
+                <a href="#page2">
+                    <p class="p1">📖ผลการเรียน</p>
+                </a>
+                <a href="#page3">
+                    <p class="p1">📞ติดต่อ</p>
+                </a>
+            </div>
+        </section>
+
+        <section class="card" id="page1">
+            <div class="card2">
+                <h2>🕴️Mr. Anuthep Kladkleep</h2>
+
+                <div class="pass">
+                    <p>🔑รหัสนักศึกษา:</p>
+                    <p>674230033</p>
+                </div>
+
+                <div class="pass">
+                    <p>🧑ชื่อ-นามสกุล:</p>
+                    <p>อนุเทพ กลัดกลีบ</p>
+                </div>
+
+                <div class="pass">
+                    <p>🏛️หมู่เรียน:</p>
+                    <p>67/43</p>
+                </div>
+
+                <div class="pass">
+                    <p>🥋อาจาร์ยที่ปรึกษา:</p>
+                    <p>พิชยา สุขปลั่ง</p>
+                </div>
+
+                <div class="pass">
+                    <p>⛓️‍💥Github:</p>
+                    <a
+                        href="https://github.com/674230033/Work_Basic-67-43-033">https://github.com/674230033/</a>
+                </div>
+            </div>
+
+            <img src="picture/mui.jpg" alt="โปรไฟล์" class="pic">
+        </section>
+
+        <section id="page2">
+            <div class="trem2">
+                <p class="trem">ปี 1 เทอม 1 : 2.47</p>
+                <p class="trem">ปี 1 เทอม 2 : 2.66</p>
+                <p class="trem">ปี 2 เทอม 1 : 2.91</p>
+            </div>
+        </section>
+
+        <div class="gpx">
+            <p>🎖️เกรดเฉลี่ยสะสม : 2.66</p>
+        </div>
+
+    </div>
+
+    <div>
+        <a class="back" href="index.html">Back to HTML Tutoriaol</a>
+    </div>
+
+    <footer id="page3">
+        <p>© 2024 Webmaster by Anuthep Kladkleep.id 674230033.</p>
+        <p>🏫Nakhon Pathom Rajabhat University</p>
+    </footer>
+</body>
+
+</html>
